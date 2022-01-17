@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TrainingSDK
+import AVFoundation
+import AVKit
+import Alamofire
+import Foundation
+import HCVimeoVideoExtractor
+import Instructions
+import JWTDecode
+import Localize_Swift
+import SafariServices
+import Swift
+import SwiftDate
+import SwiftyJSON
+@_exported import TrainingSDK
+import UIKit
+import YoutubePlayer_in_WKWebView
+import _Concurrency
+@_hasMissingDesignatedInitializers public class TrainingSDK {
+  public static let sharedInstance: TrainingSDK.TrainingSDK
+  public func start(with user: Swift.String, appID: Swift.String, password: Swift.String)
+  public func logout()
+  public func showVirtualPT()
+  public func getWorkoutPlan(_ completion: @escaping ((UIKit.UIViewController) -> ()))
+  public func showProfile()
+  public func showTodaytraining()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class VitaleViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension UIKit.UIFont {
+  public static func jbs_registerFont(withFilenameString filenameString: Swift.String, bundle: Foundation.Bundle)
+}

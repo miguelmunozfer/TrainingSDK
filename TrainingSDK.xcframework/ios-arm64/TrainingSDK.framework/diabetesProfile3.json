@@ -1,0 +1,67 @@
+[
+	{
+		"title": "¿Cuántas ingestas quieres hacer al día?",
+		"answers":[
+			{
+				"title": "3",
+				"score": 3
+			},
+			{
+				"title": "5",
+				"score": 5
+			}
+		]
+	},
+	{
+		"title": "¿Presentas algún tipo de problema cardiológico?",
+		"answers":[
+			{
+				"title": "Si",
+				"score": 1
+			},
+			{
+				"title": "No",
+				"score": 0
+			}
+		]	
+	},
+    {
+        "title": "¿Has sufrido algún ictus?",
+        "answers":[
+            {
+                "title": "Si",
+                "score": 1
+            },
+            {
+                "title": "No",
+                "score": 0
+            }
+        ]   
+    },
+    {
+        "title": "¿Tienes diagnosticada algún tipo de HTA?",
+        "answers":[
+            {
+                "title": "Si",
+                "score": 1
+            },
+            {
+                "title": "No",
+                "score": 0
+            }
+        ]   
+    },
+    {
+        "title": "¿Tienes hipercolesterolemia?",
+        "answers":[
+            {
+                "title": "Si",
+                "score": 1
+            },
+            {
+                "title": "No",
+                "score": 0
+            }
+        ]   
+    },
+]

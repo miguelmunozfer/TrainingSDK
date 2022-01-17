@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Eres hombre o mujer",
+        "type": "buttons",
+        "answers":[
+            {
+                "title": "Hombre",
+                "score": 0
+            },
+            {
+                "title": "Mujer",
+                "score": 1
+            }
+        ]   
+    },
+    {
+        "title": "Fecha de nacimiento",
+        "type": "date",
+        "placeholder": "mm/dd/aaaa"
+    },
+    {
+        "title": "Cuanto mides",
+        "type": "integer",
+        "placeholder": "cm"
+    },
+    {
+        "title": "Cuanto pesas",
+        "type": "integer",
+        "placeholder": "kg"
+    }
+]

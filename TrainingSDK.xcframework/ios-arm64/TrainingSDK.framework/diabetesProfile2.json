@@ -1,0 +1,15 @@
+[
+	{
+		"title": "¿Te gustan las actividades dirigidas?",
+		"answers":[
+			{
+				"title": "Sí",
+				"score": 0
+			},
+			{
+				"title": "No",
+				"score": 1
+			}
+		]
+	}
+]
