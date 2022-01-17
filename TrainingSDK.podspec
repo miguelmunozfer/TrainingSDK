@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TrainingSDK'
-  s.version          = '1.0'
+  s.version          = '1.0.2'
   s.summary          = 'Intelligent, automatic, comprehensive, adaptive Training System'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Miguel Muñoz' => 'miguel.munoz@myvitale.com' }
-  s.source           = { :git => 'https://github.com/miguelmunozfer/TrainingSDK.git', :tag => "1.0" }
+  s.source           = { :git => 'https://github.com/miguelmunozfer/TrainingSDK.git', :tag => "1.0.2" }
   # s.social_media_url = 'https://twitter.com/mmunozfer'
   # s.resource = 'VitaleSDK.xcframework'
   s.ios.deployment_target = '11.0'
-  s.vendored_frameworks = 'TrainingSDK.xcframework' # Your XCFramework
+  # s.vendored_frameworks = 'TrainingSDK.xcframework' # Your XCFramework
   s.dependency 'Alamofire', '5.4.0'
   s.dependency 'SwiftyJSON', '5.0.0'
   s.dependency 'SwiftDate', '6.2.0'
